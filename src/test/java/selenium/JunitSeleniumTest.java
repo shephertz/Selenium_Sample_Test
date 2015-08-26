@@ -24,7 +24,7 @@ public class JunitSeleniumTest {
                                 new URL("http://SeleniumServerIP/wd/hub/"), 
                                 DesiredCapabilities.firefox());
         
-        driver.get("http://WEB_Node_IP/");
+        driver.get("http://WebServer_Staging:8080/");
         
         
         // RemoteWebDriver does not implement the TakesScreenshot class
